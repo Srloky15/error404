@@ -1,0 +1,57 @@
+table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid;  
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Tahoma;
+}
+
+tr.adm {
+  background-color:rgba(96, 107, 99, 0.539);
+}
+
+tr.no_adm {
+  background-color: rgba(0, 0, 0, 0.3) ;;
+}
+body{
+  background:  #101828;
+  color: #fff;
+}
+.notas{
+  background: rgba(0, 0, 0, 0.3) ;
+  border: 0.1rem #c0c0c0 solid;
+  
+  padding: 2rem;
+  color: #fff;
+  width: 70%;
+  margin: 5rem;
+  border-radius: 2rem;
+}
+.titulo{
+  text-align: center;
+  font-size: 2rem;
+  font-family: Tahoma;
+  font-weight: bold;
+  color: #fff;
+}
+.autor{
+  font-size: 0.9rem;
+  font-family: Tahoma;
+  color: #fff;
+}
+
+.nota{
+  text-align: center;
+  font-size: 2rem;
+  font-family: Tahoma;
+  color: #fff;
+}
